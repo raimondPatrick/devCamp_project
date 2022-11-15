@@ -1,0 +1,198 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul li {
+    list-style: none;
+}
+/* NAVIGATION SECTION - HEADER */
+.header-wrapper {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2px;
+}
+
+    /* LEFT COLUMN */
+.header-wrapper > .left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-wrapper > .left-column > .codepen-icon img {
+    height: 40px;
+    padding: 0 60px 0 30px;
+}
+
+.header-wrapper > .left-column > .explore-wrapper h3 {
+    font-size: 1em;
+    font-weight: 400;
+    color: gold;
+    margin: 0 0 5px 0;
+}
+    /* NAVIGATION */
+.navigation-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-wrapper > .links-wrapper > .nav-link {
+    font-weight: 700;
+    padding: 0 10px 0 0;
+}
+
+.navigation-wrapper > .spark {
+    margin-left: 30px;
+}
+
+.navigation-wrapper > .spark i{
+    margin-left: 15px;
+}
+
+    /* ACTIONS COLUMN */
+.header-wrapper > .actions-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin: 0;
+}
+
+.header-wrapper > .actions-column > .actions-btn {
+    font-weight: 600;
+    background-color: rgb(67, 67, 67);
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.header-wrapper > .actions-column > .actions-btn :nth-child(1) i{ 
+    color: rgb(52, 228, 152);
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+.header-wrapper > .actions-column > #search {
+    background-color: transparent;
+    padding: 20px;
+}
+
+.header-wrapper > .actions-column > #search i {
+    font-size: 2em;
+    color: rgb(107, 107, 107);
+}
+
+/* MIDDLE SECTION */
+.mid-section {
+    background-color: rgb(53, 55, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0 0 60px;
+    margin: 0;
+    /* box-shadow: inset -160 1 150 -56 rgb(94, 53, 53); */
+}
+
+        /* LEFT COLUMN */
+.mid-section > .left-column-info {
+    display: flex;
+    flex-direction: column;
+    /* con esta orden el contenido se situa desde borde superior de caja padre (creo)*/
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 500px;
+    padding: 0;
+}
+
+.mid-section > .left-column-info > .paragraph-wrapper p:nth-child(1) {
+    font-size: 2.5em;
+    font-weight: 200;
+    line-height: 1.1em;
+    color: rgb(200, 200, 200);
+    margin-top: 0;
+}
+
+.mid-section > .left-column-info > .paragraph-wrapper :nth-child(1) span {
+    font-weight: 600;
+    color: white;
+}
+
+.mid-section > .left-column-info > .paragraph-wrapper p:nth-child(2) {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: rgb(200, 200, 200);
+    margin: 0  0 70px 0;
+
+}
+
+.mid-section > .left-column-info > .paragraph-wrapper p:nth-child(1) span:nth-child(2) {
+    font-size: 0.9em;
+    color: gold;
+    margin-left: 10px;
+}
+
+.mid-section > .left-column-info > .free-sign-learn :nth-child(1) {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: black;
+    background-color: rgb(67, 196, 140);
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-right: 20px;
+}
+
+.mid-section > .left-column-info > .free-sign-learn :nth-child(2) {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.5em;
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+        /* RIGHT COLUMN */
+.mid-section > .image-column h1 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.mid-section > .image-column h1 span {
+    color: rgb(85, 193, 248);
+}
+
+.mid-section > .image-column img {
+    height: 500px;
+}
+
+
+/* RESOURCES SECTION */
+.resources-wrapper {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 200px;
+    text-align: center;
+}
+.resources-wrapper a {
+    font-weight: 600;
+    background-color: rgb(59, 58, 63);
+    border: 1px solid white;
+    width: 25%;
+    padding: 15px;   
+    margin: 0;
+}
+
+.resources-wrapper > .resource-link span {
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+}
